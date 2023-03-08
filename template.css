@@ -1,0 +1,111 @@
+body {
+    background-color: lightblue;
+    color: white;
+    font-family: Verdana;
+    line-height: 1.4em;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+p a{
+    font-weight: bold;
+}
+
+#contenitorePrincipale {
+    background-color: darkgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+nav {
+    background-color: darkcyan;
+    height: 50px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.activePage {
+    background-color: darkslategrey;
+    font-weight: bold;
+    padding: 5px;
+}
+
+main {
+    float: left;
+    width: 60%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    background-color: darkcyan;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#clr {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 1px;
+}
+
+footer p {
+    color: black;
+    font-weight: bold;
+}
+
+#listaProdotti li{
+    list-style: none;
+    border-bottom: dashed;
+    border-color: black;
+}
+
+#listaProdotti a {
+    color: red;
+}
+
+input, textarea {
+    width: 95%;
+    padding-bottom: 10px;
+}
+
+article a {
+    color: darkorange;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+p a:hover {
+    color: red;
+}
+li a:hover {
+    color: orange;
+}
+
+label {
+    font-weight: bold;
+}
