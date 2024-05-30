@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 5rem;
+}
+
+.indice {
+    background-color: #8e8e8e;
+    color: white;
+    text-align: left;
+    padding-top: 0px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);}
+
+.indice ul {
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+.indice ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffe2e2;
+    transition-duration: 0.3s;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.indice ul li a:hover{
+    padding: 2px;
+    color: #ffaaaa;
+}
+
+.indice ul li {
+    display: inline-block;
+}
+
+#paragrafo {
+    padding: 0 30px;
+    background-color: rgb(255, 249, 161);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*animazione rgb hr*/
+@keyframes rainbow {
+    0% { border-color: red; }
+    14% { border-color: orange; }
+    28% { border-color: yellow; }
+    42% { border-color: green; }
+    57% { border-color: blue; }
+    71% { border-color: indigo; }
+    85% { border-color: violet; }
+    100% { border-color: red; }
+}
+
+hr.rgb {
+    border: 0;
+    height: 4px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 100%;
+    animation: rainbow 5s infinite, gradientShift 1s infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('titleBackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: auto;
+    color: whitesmoke;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+
+#title:hover {
+    animation: waveBorder 1.5s infinite;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px rgba(255, 0, 0, 0.75);
+    }
+    to {
+        box-shadow: 0 0 20px rgba(255, 0, 0, 1);
+    }
+}
+
+#homeImg {
+    margin: 25px;
+    animation: glow 1s infinite alternate;
+    transition-duration: 0.7s;
+    border-radius: 5px;
+}
+
+#homeImg:hover {
+    border-radius: 25px;
+    margin-bottom: 10px;
+    transition-duration: 0.5s;
+}
+
+#centrato {
+    text-align: center;
+}
