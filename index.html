@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrLM89Stream - Movies & TV Shows</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Mr<span>LM89</span>Stream</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active" id="nav-home">Home</a></li>
+                <li><a href="#" id="nav-movies">Movies</a></li>
+                <li><a href="#" id="nav-tv">TV Shows</a></li>
+                <li><a href="#" id="nav-genres">Genres</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search movies, TV shows..." id="search-input">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1 id="featured-title">Stranger Things</h1>
+            <p id="featured-description">When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" id="watch-now-btn"><i class="fas fa-play"></i> Watch Now</button>
+                <button class="btn btn-secondary" id="more-info-btn"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <section>
+            <h2 class="section-title">Popular Movies <a href="#" class="see-all" id="see-all-movies">See All</a></h2>
+            <div class="content-grid" id="popular-movies">
+                <!-- Content loaded by JavaScript -->
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Trending TV Shows <a href="#" class="see-all" id="see-all-tv">See All</a></h2>
+            <div class="content-grid" id="trending-tv">
+                <!-- Content loaded by JavaScript -->
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">Recently Added <a href="#" class="see-all" id="see-all-recent">See All</a></h2>
+            <div class="content-grid" id="recently-added">
+                <!-- Content loaded by JavaScript -->
+            </div>
+        </section>
+    </div>
+    
+    <!-- Video Player Modal -->
+    <div class="modal" id="player-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="video-container">
+                <iframe id="video-player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h2 id="video-title"></h2>
+                <p id="video-description"></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">TV Shows</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyright">© 2023 MrLM89Stream. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
